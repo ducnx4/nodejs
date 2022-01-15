@@ -1,0 +1,9 @@
+version: '3'
+services:
+  nodejs:
+    image: nodejs
+    container_name: nodejs
+    environment:
+      ALLOW_EMPTY_PASSWORD: "yes"
+    ports:
+        - "8080:3000"

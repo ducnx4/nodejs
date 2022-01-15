@@ -1,0 +1,18 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -u bdd -R spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.1.4",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
