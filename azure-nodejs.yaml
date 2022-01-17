@@ -21,7 +21,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: azure-nodejs
-        image: ducnx4ACR.azurecr.io/nodejs:v1
+        image: ducnx4ACR.azurecr.io/nodejs:v2
         ports:
         - containerPort: 80
         resources:
